@@ -1,0 +1,133 @@
+body{
+    background-color: #eaeff3; /*Color de fondo */
+    font-family: 'Arial', sans-serif; /*Tipografia*/
+    margin: 0; /* Nose que hacen estos 2 */
+      margin: 0 20px; /*Anchura del texto*/
+
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 90%; /* Aumenta el ancho al 100% del contenedor */
+    height: 800px; /* Aumenta la altura para mayor visibilidad */
+    border: 1px solid #ccc; /* Agrega un borde opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra para darle mejor apariencia */
+}
+
+/* Estilo para los videos */
+
+
+p {
+    line-height: 1.8;/*Distancia entre lineas*/
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+
+/* Enlaces */
+nav {
+    background-color: #1b3b50; /* Color para la barra */
+    padding: 10px;/*Tamaño de la caja "Barra" Largo  */
+    text-align: center; /*Texto cenrado*/
+}
+
+nav ul {
+    list-style: none;
+    margin: 0; /*Margen de la barra */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px; /*Distancia entre cada Enlace (Ancho)*/
+}
+
+nav ul li a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration:none; /* Ninguna decoración*/
+    font-weight: bold; /* Negrita */
+}
+
+
+
+
+/*Formulario*/
+/* Secciones */
+h2 {
+    margin-top: 70px;/*margen superior */
+    color: #1b3b50; /* Color de los H2 */
+    border-bottom: 8px solid #080e39; /*Borde inferior  */
+    padding-bottom: 10px; /*Distancia con los bordes*/
+    text-align: center;/*Texto centrado*/
+    font-size: 30px;/*Tamaño de letra de los h2*/
+}
+
+h3 {
+    font-weight: bold;  /* Negrita*/
+    font-size: 30px;/*Tamaño de letra de los h2*/
+}
+
+h4{
+    text-align: center;
+}
+
+video{
+    display: block;/*Espacio*/
+    margin: 20px auto;/*Margenes*/
+    max-width: 50%;/*Tamaño* /
+    height: auto;/*Altura*/
+    border-radius: 10px;/*Redondeo*/
+}
+
+/* Estilo de imágenes */
+
+
+img {/*Otras imagenes*/
+    display: block;/*Espacio*/
+    margin: 20px auto;/*Margenes*/
+    max-width: 50%;/*Tamaño de la imagen*/
+    height: auto;/*Altura*/
+    border-radius: 90px;/*Redondeo*/
+}
+
+.MiImagen{/*Imagen de mi persona*/
+    display: block;/*Espacio*/
+    margin: 10px auto;/*Margenes*/
+    max-width: 20%;/*Tamaño de la imagen (Ancho)*/
+    height: auto;/*Altura*/
+    border-radius: 50px;/*Redondeo*/
+}
+
+
+
+
+
+
+/* Formulario de contacto */
+input[type="email"], input[type="text"], input[type="date"]  {
+    width: 50%; /* Ancho ajustado a un porcentaje razonable */
+    padding: 10px; /* Tamaño de las "Caja de texto" */
+    margin: 10px auto; /* Centrado automático */
+    border: 1px solid #ccc; /* Borde de la Caja (Grosor) */
+    border-radius: 20px; /* Borde circular */
+    font-size: 20px; /* Tamaño de letra */
+    display: block; /* Hace que el input se comporte como un bloque */
+}
+
+input[type="submit"] {
+    width: 50%; /* Ancho del botón */
+    padding: 10px; /* Tamaño de la "Caja de texto" */
+    margin: 10px auto; /* Margen */
+    background-color: #4cbbd1; /* Color del botón */
+    color: white; /* Color de la letra */
+    border: none; /* Sin borde visible */
+    border-radius: 20px; /* Borde circular */
+    font-size: 16px; /* Tamaño de letra */
+    cursor: pointer; /* Cambiar el cursor cuando esté sobre el botón */
+    display: block; /* Hace que el botón se comporte como un bloque */
+}
+
+
+
+
+
